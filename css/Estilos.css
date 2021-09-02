@@ -24,6 +24,7 @@ header h1{
     height: 35px;
 }
 
+
 nav {background-color: rgba(255, 255, 255, 0);
     height: 50px;
     position: fixed;
@@ -58,4 +59,25 @@ nav ol li:hover{
     color: black;
     box-shadow: 5px 3px 5px black;
     width: 250px;
+}
+
+.rojo{
+    background-color: red;
+    width: 25%;
+    height: 300px;
+    color: yellow;
+    font-size: 15px;
+    margin: 5px;
+}
+
+#negro{
+    background-color: black;
+    width: 25%;
+    height: 300px;
+    color: yellow;
+    font-size: 15px;
+}
+#principal{
+    display: flex;
+justify-content: center;
 }
