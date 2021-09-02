@@ -1,0 +1,41 @@
+#justify{
+    display: flex;
+    /* justify-content: center; para centrar a los hijos*/
+    /* justify-content:end; para posicionar al final*/
+    /* justify-content: flex-start; el que viene por defecto*/
+    /* justify-content: space-around;  para separar en igual distancia*/
+    /* justify-content: space-between; separa pero arranca desde las puntas */
+    /* justify-content: space-evenly; */
+}
+
+.primer{
+/* height: 150px;
+width: 150px; */
+width: 30%;
+background-color: blueviolet;
+float: left;
+}
+
+.primer:after {
+    content: "Este es despues del contenido"; /*Esto se usa para que no se puede seleccionar y copiar */
+    color: white;
+    font-size: 50px;
+}
+
+.primer:before{
+    content: "Esto es para antes del contenido";
+    color: yellow;
+}
+
+.primer:first-letter{
+    color: black;
+    font-size: 30px;
+}
+
+li{
+    display: inline; /*  para que los item tengan posicion horizontal */
+   }
+
+   span{
+       display: block;
+   }
