@@ -1,0 +1,24 @@
+@keyframes menu {
+    0%{
+        padding: 10px;
+         background-color: black;
+         color: white;
+     } 
+     100%{
+         padding: 20px;
+         background-color: white;
+         color: black;
+         box-shadow: 5px 5px 5px black;
+         border-radius: 40px;
+         font-size: 30px;
+     }
+ }
+
+
+nav ol li {
+    background-color: rgb(189, 34, 34);
+    display: inline;
+    color: white;
+    padding: 15px;
+    margin: 0px 10px;
+}
