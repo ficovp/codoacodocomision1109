@@ -14,17 +14,17 @@ if (8 >= 8) {/*si es verdadera se ejecuta*/
     console.log("es correcto!")
 } else {/*se es falso*/
     console.log('No es correcto!')
-}
+};
 
 console.log((5 > 3) ? "Es correcto 5 > 3" : "No es correcto");/*Ternario*/
 if ((hayClases == true) && esFeriado != true) {/*para que sea true se tienen que cumplir ambas condiciones*/
     console.log('Me conecto a la videollamada!')
 } else {
     console.log('No me conecto a la videollamada!')
-}
+};
 if (25 < 32 || 12 > 20) {/*se cumple una de las dos condiciones*/
     console.log('Se cumplió la condición')
-}
+};
 let saludo = "Hola, cómo estás? "
 let saludar = saludo + nombre;
 
